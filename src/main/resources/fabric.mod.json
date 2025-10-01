@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "remonitor",
+	"version": "${version}",
+	"name": "ReMonitor",
+	"description": "Remembers what monitor Minecraft was last open on!",
+	"authors": [
+		"LeeByte"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/remonitor",
+		"sources": "https://github.com/LeeByteCode/ReMonitor",
+        "issues": "https://github.com/LeeByteCode/ReMonitor/issues"
+	},
+	"license": "GNU GPLv3",
+	"icon": "assets/remonitor/remonitoricon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+          "net.leebyte.remonitor.ReMonitorClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "1.21.X",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
