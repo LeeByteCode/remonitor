@@ -39,7 +39,7 @@ import java.nio.file.Path;
 
 public class ReMonitorClient implements ClientModInitializer {
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-    private static final Path CONFIG_PATH = FabricLoader.getInstance().getConfigDir().resolve("restore-monitor.json");
+    private static final Path CONFIG_PATH = FabricLoader.getInstance().getConfigDir().resolve("remonitor.json");
 
     // Simple config
     private static class Config {
