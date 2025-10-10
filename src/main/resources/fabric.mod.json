@@ -12,7 +12,7 @@
 		"sources": "https://github.com/LeeByteCode/ReMonitor",
         "issues": "https://github.com/LeeByteCode/ReMonitor/issues"
 	},
-	"license": "GNU GPLv3",
+	"license": "GNU LGPLv3",
 	"icon": "assets/remonitor/remonitoricon.png",
 	"environment": "*",
 	"entrypoints": {
